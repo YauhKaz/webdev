@@ -1,0 +1,431 @@
+body {
+    width: 1600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav ul{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -50px;
+    line-height: 6px;
+    padding-left: 374px;
+    padding-top: 0px;
+    height: 24px;
+}
+
+.logo {
+    margin-left: 96px;
+    margin-right: 14px;
+    padding-top: 10px;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+h1 {
+    position: relative;
+    color: black;
+    font-size: 1px;
+}
+
+
+header li {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-left: 81px;
+    margin-top: 38px;
+    display: inline-block;
+    line-height: 140%;
+}
+
+.your-life {
+    margin-top: -48px;
+    margin-left: -8px;
+    height: 744px;
+    max-width: 1600px;
+    background-image: url("assets/picture-your-life.png");
+    color: white;
+}
+
+#your-life-article {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 232px;
+    padding-left: 0px;
+    font-size: 64px;
+    padding-bottom: 0px;
+    height: 11px;
+}
+
+.your-life-text {
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.1px;
+}
+
+.your-life button {
+    height: 46px;
+    width: 184px;
+    left: 707px;
+    top: 406px;
+    border-radius: 0px;
+    margin-left: 707px;
+    margin-top: 11px;
+    background-color: #00AFDB;
+    border: none;
+    height: 46px;  
+    color:white;  
+}
+
+.your-life button:hover {
+    background-color:#009CC2;
+}
+
+.your-life-ul {
+    padding-top: 167px;
+    padding-left: 689px;
+}
+
+.your-life-li {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 26px;
+    position: relative;
+    color: white;
+}
+
+.rappresent {
+    background-color: white;
+    height: 842px;
+}
+
+.rappresent-article {
+    padding-left: 258px;
+    padding-top: 259px;    
+}
+
+.rappresent-article p {
+    padding-top:2px;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    line-height: 143%;
+}
+
+.rappresent-article button {
+    height: 46px;
+    width: 184px;
+    left: 707px;
+    top: 406px;
+    border-radius: 0px;
+    margin-left: 2px;
+    margin-top: 15px;
+    background-color: #00AFDB;
+    border: none; 
+    color:white;
+}
+
+.rappresent-article button:hover {
+    background-color:#009CC2;
+}
+
+.rappresent img {
+    height: 582px;
+    width: 407px;
+    margin-top: -424px;
+    margin-left: 915px;
+}
+
+.our-community {
+    background-color: #F5F6F7;
+    height: 504px;
+    margin-top: 408px;
+}
+
+.our-community-nav {
+    margin-top: -424px;
+    margin-left: 1248px;
+    font-size: 17px;
+    padding-top: 81px;
+    letter-spacing: 7px; 
+}
+
+.sign {
+    padding-left: 13px;
+    margin-left: -18px;
+}
+
+.our-community-nav span {
+    letter-spacing: 1px;
+    padding-right: 6px; 
+}
+
+.our-community-left-part {
+    margin-left: 272px;
+    margin-top: 54px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.our-community-icon {
+    padding-left: 116px;
+    padding-top: 0px;
+}
+
+.our-community-article {
+    padding-left: 56px;
+    padding-top: 1px;
+    margin-bottom: -1px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.our-community-text {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: -1051px;
+    line-height: 154%;
+}
+
+.our-community-right-part {
+    position: relative;
+    margin-left: 698px;
+    margin-top: -224px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slide {
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.implement {
+    background-color: white;
+    height: 842px;
+    margin-top: 408px;
+}
+
+.implement-left-part{
+    padding-left: 261px;
+    margin-top: -288px;
+}
+
+.implement-right-part {
+    padding-left: 807px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: -406px;
+    margin-left: 0px;
+    line-height: 154%;
+}
+
+.implement-article {
+    letter-spacing: 0.1px;
+    font-size: 24px;
+}
+
+.implement-text span {
+    letter-spacing: 0px;
+}
+
+.implement button {
+    height: 46px;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-top: 16px;
+    background-color: #00AFDB;
+    border: none;
+    color: white;    
+}
+
+.subscribe {
+    background-image: url("assets/pexels-christina-morillo-1181675\ 1.png");
+    height: 598px;
+    max-width: 1600px;
+    margin-top: -144px;
+    margin-left: -8px;
+}
+
+.subscribe-block {
+    margin-left: 569px;
+}
+
+.subscribe-article {
+    font-size: 24px;
+    letter-spacing: -0.1px;
+    color: white;
+    padding-top: 217px;
+}
+
+.subscribe-form {
+    position: absolute;
+    height: 5px;
+    width: 340px;
+    padding-top: 32px;
+    margin-left: -13px;
+}
+
+.subscribe-button{
+    position: absolute;
+    height: 45px;
+    width: 67px;
+    border-radius: 0px;
+    margin-left: -1px;
+    margin-top: 6px;
+    background-color: #00AFDB;
+    border: none;
+}
+
+.download {
+    background-color: white;
+    height: 842px;
+    max-width: 1600px;
+    margin-top: 100px;
+}
+
+.download-article {
+    padding-top: 20px;
+    margin-left: -42px;
+    letter-spacing: 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.download-text {
+    margin-top: -2px;
+    margin-left: -26px;
+    margin-bottom: -2px;
+    letter-spacing: 0px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 143%;
+}
+
+.download-text span {
+    padding-left: 0px;
+}
+
+.download-button {
+    margin-left: 591px;
+    margin-top: 25px;
+    position: absolute; 
+}
+
+.button-text1 {
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    border-radius: 0px;
+    margin-left: -2px;
+    margin-top: 5px;
+    background-color: #00AFDB;
+    border: none;
+    color: white;
+}
+
+.button-icon1 {
+    position: absolute;
+    height: 50px;
+    width: 58px;
+    border-radius: 0px;
+    margin-left: 128px;
+    margin-top: 5px;
+    background-color: #00AFDB;
+    border: none;
+}
+
+.button-icon1:hover {
+    background-color:#009CC2;
+}
+
+.button-text2 {
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    border-radius: 0px;
+    margin-left: 216px;
+    margin-top: 5px;
+    background-color: #00AFDB;
+    border: none;
+    color: white;
+}
+
+.button-icon2 {
+    position: absolute;
+    height: 50px;
+    width: 58px;
+    border-radius: 0px;
+    margin-left: 346px;
+    margin-top: 5px;
+    background-color: #00AFDB;
+    border: none;
+}
+
+.button-icon2:hover {
+    background-color:#009CC2;
+}
+
+.download-button-android {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+footer {
+    height: 184px;
+    max-width: 1600px;
+    background-color: black;
+    margin-top: -490px;
+    margin-left: -8px;
+}
+
+.footer-ul {
+    padding-top: 74px;
+    padding-left: 145px;
+}
+
+.footer-li {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 14px;
+    position: relative;
+    color: white;
+}
+
+.footer-logo {
+    position: relative;
+    margin-top: -48px;
+    margin-left: 778px;
+}
+
+.footer-text {
+    text-align: right;
+    margin-top: -34px;
+    margin-right: 157px;
+    font-size: 14px;
+    color: #818181;
+    letter-spacing: -0.1px;
+}
+
